@@ -8,9 +8,9 @@
 	<key>author</key>
 	<string>shebang</string>
 	<key>name</key>
-	<string>Cool</string>
+	<string>Ice</string>
 	<key>semanticClass</key>
-	<string>theme.dark.base20_cool</string>
+	<string>theme.dark.base20_ice</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -19,29 +19,31 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#262626</string>
+				<string>#1A1A1A</string>
 				<key>caret</key>
-				<string>#c5c8c6</string>
+				<string>#D1D1D1</string>
 				<key>foreground</key>
-				<string>#c5c8c6</string>
+				<string>#BABABA</string>
 				<key>invisibles</key>
 				<string>#969896</string>
 				<key>lineHighlight</key>
 				<string>#262626</string>
 				<key>selection</key>
-				<string>#373b41</string>
+				<string>#373B41</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>Base00</string>
+			<string>Base00: Default Background</string>
 			<key>scope</key>
-			<string>base16.base00</string>
+			<string>base16.base00, base16.reversed</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#262626</string>
+				<string>#D1D1D1</string>
+				<key>background</key>
+				<string>#1A1A1A</string>
 			</dict>
 		</dict>
 
@@ -49,11 +51,13 @@
 			<key>name</key>
 			<string>Base01: Status Bar</string>
 			<key>scope</key>
-			<string>base16.base01</string>
+			<string>base16.base01, base16.reversed</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#2F2F3B</string>
 				<key>foreground</key>
-				<string>#3a3a3a</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -61,11 +65,13 @@
 			<key>name</key>
 			<string>Base02: Status Bar Selected</string>
 			<key>scope</key>
-			<string>base16.base02</string>
+			<string>base16.base02, base16.reversed</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#2F3D52</string>
 				<key>foreground</key>
-				<string>#4e4e4e</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -76,7 +82,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8a8a8a</string>
+				<string>#666666</string>
         <key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -89,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#949494</string>
+				<string>#7D8FA8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,117 +106,119 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dab997</string>
+				<string>#BABABA</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base06</string>
+			<string>Base06: Light Foreground (Not often used)</string>
 			<key>scope</key>
 			<string>base16.base06</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d5c4a1</string>
+				<string>#B8D6D0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base07</string>
+			<string>Base07: Light Background (Not often used)</string>
 			<key>scope</key>
-			<string>base16.base07</string>
+			<string>base16.base07, base16.reversed</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ebdbb2</string>
+				<string>#D1D1D1</string>
+				<key>background</key>
+				<string>#535366</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base08</string>
+			<string>Base08: Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted</string>
 			<key>scope</key>
 			<string>base16.base08, storage</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9E94A8</string>
+				<string>#499C9C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base09</string>
+			<string>Base09: Integers, Boolean, Constants, XML Attributes, Markup Link Url</string>
 			<key>scope</key>
 			<string>base16.base09, constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#49A1C9</string>
+				<string>#B09F7B</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base0A</string>
+			<string>Base0A: Classes, Markup Bold, Search Text Background</string>
 			<key>scope</key>
 			<string>base16.base0A, entity</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#afaf00</string>
+				<string>#6BB2C9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base0B</string>
+			<string>Base0B: Strings, Inherited Class, Markup Code, Diff Inserted</string>
 			<key>scope</key>
 			<string>base16.base0B, string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A9B58D</string>
+				<string>#5C9AE0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base0C</string>
+			<string>Base0C: Support, Regular Expressions, Escape Characters, Markup Quotes</string>
 			<key>scope</key>
 			<string>base16.base0C, support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#85ad85</string>
+				<string>#9EB5B5</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base0D</string>
+			<string>Base0D: Functions, Methods, Attribute IDs, Headings</string>
 			<key>scope</key>
 			<string>base16.base0D, methods</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#83adad</string>
+				<string>#9C9C32</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base0E</string>
+			<string>Base0E: Keywords, Storage, Selector, Markup Italic, Diff Changed</string>
 			<key>scope</key>
 			<string>base16.base0E, keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5A92BF</string>
+				<string>#67889E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Base0F</string>
+			<string>Base0F: Deprecated, Opening/Closing Embedded Language Tags</string>
 			<key>scope</key>
 			<string>base16.base0F, warning</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B39A9A</string>
+				<string>#B86565</string>
 			</dict>
 		</dict>
 
@@ -222,9 +230,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3a3a3a</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#ED4E4E</string>
+				<string>#D16060</string>
 			</dict>
 		</dict>
 		<dict>
@@ -235,9 +243,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3a3a3a</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#E8F005</string>
+				<string>#9E9E00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -248,9 +256,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3a3a3a</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#00E682</string>
+				<string>#227D31</string>
 			</dict>
 		</dict>
 		<dict>
@@ -261,9 +269,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#49A1C9</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#004766</string>
+				<string>#114F78</string>
 			</dict>
 		</dict>
 
@@ -277,9 +285,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#262626</string>
+				<string>#D1D1D1</string>
 				<key>foreground</key>
-				<string>#dab997</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -291,9 +299,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#949494</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#3a3a3a</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -305,9 +313,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#949494</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#4e4e4e</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -319,9 +327,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#262626</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#EBDBB2</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -333,9 +341,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#262626</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#85AD85</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -347,9 +355,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#262626</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#83ADAD</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
@@ -361,9 +369,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#262626</string>
+				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#5A92BF</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 
