@@ -57,7 +57,7 @@
 				<key>background</key>
 				<string>#2F2F3B</string>
 				<key>foreground</key>
-				<string>#D1D1D1</string>
+				<string>#93A9C7</string>
 			</dict>
 		</dict>
 
@@ -69,9 +69,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2F3D52</string>
+				<string>#445978</string>
 				<key>foreground</key>
-				<string>#D1D1D1</string>
+				<string>#93A9C7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -95,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7D8FA8</string>
+				<string>#93A9C7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -279,101 +279,75 @@
 
 		<dict>
 			<key>name</key>
-			<string>Demo Base00: Default Background</string>
+			<string>Lightline Insert: Base00 on Base0D</string>
 			<key>scope</key>
 			<string>base16.base00</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#D1D1D1</string>
+				<string>#9C9C32</string>
 				<key>foreground</key>
-				<string>#D1D1D1</string>
+				<string>#1A1A1A</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>Demo Base01: Lighter Background (Used for status bars)</string>
+			<string>Lightline Visual: Base00 on Base0B</string>
 			<key>scope</key>
-			<string>base16.base01</string>
+			<string>base16.base00</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#D1D1D1</string>
+				<string>#5C9AE0</string>
+				<key>foreground</key>
+				<string>#1A1A1A</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>Demo Base02: Selection Background</string>
+			<string>Lightline Replace: Base00 on Base0C</string>
 			<key>scope</key>
-			<string>base16.base02</string>
+			<string>base16.base00</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#D1D1D1</string>
+				<string>#9EB5B5</string>
+				<key>foreground</key>
+				<string>#1A1A1A</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>Demo: Base00 on Base07</string>
+			<string>Lightline Normal: Base04 on Base01</string>
 			<key>scope</key>
-			<string>base16.base02</string>
+			<string>base16.base00</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#D1D1D1</string>
+				<string>#2F2F3B</string>
+				<key>foreground</key>
+				<string>#93A9C7</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>Demo: Base00 on Base0C</string>
+			<string>Lightline Selected: Base04 on Base02</string>
 			<key>scope</key>
-			<string>base16.base02</string>
+			<string>base16.base00</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#D1D1D1</string>
 				<key>background</key>
-				<string>#D1D1D1</string>
+				<string>#445978</string>
+				<key>foreground</key>
+				<string>#93A9C7</string>
 			</dict>
 		</dict>
 
-		<dict>
-			<key>name</key>
-			<string>Demo: Base00 on Base0D</string>
-			<key>scope</key>
-			<string>base16.base02</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D1D1D1</string>
-				<key>background</key>
-				<string>#D1D1D1</string>
-			</dict>
-		</dict>
 
-		<dict>
-			<key>name</key>
-			<string>Demo: Base00 on Base0E</string>
-			<key>scope</key>
-			<string>base16.base02</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D1D1D1</string>
-				<key>background</key>
-				<string>#D1D1D1</string>
-			</dict>
-		</dict>
 
 	</array>
 	<key>uuid</key>
