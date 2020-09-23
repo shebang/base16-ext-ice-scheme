@@ -1,0 +1,3 @@
+[submodule "base16-tmtheme-import"]
+	path = base16-tmtheme-import
+	url = https://github.com/shebang/base16-tmtheme-import
