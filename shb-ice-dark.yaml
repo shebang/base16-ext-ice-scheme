@@ -1,23 +1,73 @@
-scheme: 'shb ice dark'
-author: 'shebang'
+scheme: "shb ice dark"
+author: "shebang"
 
-base00: '141414'
-base01: '23232B'
-base02: '445978'
-base03: '666666'
-base04: 'B7B9C7'
-base05: 'BABABA'
-base06: 'B8D6D0'
-base07: '535366'
-base08: '499C9C'
-base09: 'B09F7B'
-base0A: '6BB2C9'
-base0B: '5C9AE0'
-base0C: '9EB5B5'
-base0D: '9C9C32'
-base0E: '67889E'
-base0F: 'B86565'
-base10: 'D16060'
-base11: '9E9E00'
-base12: '227D31'
-base13: '114F78'
+base00: "141414"
+base01: "23232B"
+base02: "445978"
+base03: "666666"
+base04: "B7B9C7"
+base05: "BABABA"
+base06: "B8D6D0"
+base07: "535366"
+base08: "499C9C"
+base09: "B09F7B"
+base0A: "6BB2C9"
+base0B: "5C9AE0"
+base0C: "9EB5B5"
+base0D: "9C9C32"
+base0E: "67889E"
+base0F: "B86565"
+#
+# reserved for extending base16
+#
+
+base10: "D16060"
+base11: "9E9E00"
+base12: "227D31"
+base13: "114F78"
+base14: "c0c0c0" #
+base15: "c0c0c0" #
+base16: "c0c0c0" #
+base17: "c0c0c0" #
+base18: "c0c0c0" #
+base19: "c0c0c0" #
+base1A: "c0c0c0" #
+base1B: "c0c0c0" #
+base1C: "c0c0c0" #
+base1D: "c0c0c0" #
+base1E: "c0c0c0" #
+base1F: "c0c0c0" #
+
+base20: "c0c0c0" # sign 0 - lowest priority (hardly visible)
+base21: "c0c0c0" # sign 1
+base22: "c0c0c0" # sign 2
+base23: "c0c0c0" # sign 3
+base24: "c0c0c0" # sign 4
+base25: "c0c0c0" # sign 5
+base26: "c0c0c0" # sign 6
+base27: "c0c0c0" # sign 7 - highest priority (in your face error message)
+base28: "c0c0c0" # reserved
+base29: "c0c0c0" # reserved
+base2A: "c0c0c0" # reserved
+base2B: "c0c0c0" # reserved
+base2C: "c0c0c0" # reserved
+base2D: "c0c0c0" # reserved
+base2E: "c0c0c0" # reserved
+base2F: "c0c0c0" # reserved
+
+base30: "c0c0c0" #
+base31: "c0c0c0" #
+base32: "c0c0c0" #
+base33: "c0c0c0" #
+base34: "c0c0c0" #
+base35: "c0c0c0" #
+base36: "c0c0c0" #
+base37: "c0c0c0" #
+base38: "c0c0c0" #
+base39: "c0c0c0" #
+base3A: "c0c0c0" #
+base3B: "c0c0c0" #
+base3C: "c0c0c0" #
+base3D: "c0c0c0" #
+base3E: "c0c0c0" #
+base3F: "c0c0c0" #
