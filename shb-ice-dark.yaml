@@ -1,5 +1,6 @@
 scheme: "shb ice dark"
 author: "shebang"
+variant: "base64"
 
 base00: "141414"
 base01: "23232B"

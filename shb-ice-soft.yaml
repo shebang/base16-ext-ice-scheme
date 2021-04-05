@@ -1,5 +1,6 @@
 scheme: "shb ice soft"
 author: "shebang"
+variant: "base64"
 
 base00: "212121"
 base01: "313142"
